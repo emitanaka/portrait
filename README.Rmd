@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# portrait
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package is made for demonstration purposes and not a serious package.
+
+The `portrait` is an R-package that draws faces by defining its facial components. 
+
+## Installation
+
+```r
+# install.packages("remotes")
+remotes::install_github("emitanaka/portrait")
+```
+
+## Getting started
+
+```{r}
+library(portrait)
+```
+
+Draw a standard face:
+
+```{r, fig.height = 3, fig.width = 3}
+face()
+```
+
+Change eye color:
+
+```{r, fig.height = 3, fig.width = 3}
+face() + sketch_eyes(fill = "blue", size.outline = 3)
+```
+
+Change eye color and sad face:
+
+```{r, fig.height = 3, fig.width = 3}
+face() + 
+  sketch_eyes(fill = "blue", size.outline = 3) +
+  sketch_mouth(smile = -1)
+```
+
+Change to a cat eye:
+
+```{r, fig.height = 3, fig.width = 3}
+face() + cat_eyes()
+```
+
