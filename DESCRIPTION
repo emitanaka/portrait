@@ -14,3 +14,5 @@ RoxygenNote: 7.1.1
 Imports: 
     grid,
     magrittr
+URL: https://github.com/emitanaka/portrait
+BugReports: https://github.com/emitanaka/portrait/issues
