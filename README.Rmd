@@ -54,9 +54,14 @@ face() +
   sketch_mouth(smile = -1)
 ```
 
-Change to a cat eye:
+Make it into a cat face:
 
 ```{r, fig.height = 3, fig.width = 3}
-face() + cat_eyes()
+face() + 
+  cat_eyes() +
+  cat_whiskers() +  
+  cat_shape() +
+  cat_nose() +
+  sketch_mouth(smile = 0.4)
 ```
 

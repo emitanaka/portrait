@@ -51,10 +51,15 @@ face() +
 
 ![](man/figures/README-unnamed-chunk-5-1.png)<!-- -->
 
-Change to a cat eye:
+Make it into a cat face:
 
 ``` r
-face() + cat_eyes()
+face() + 
+  cat_eyes() +
+  cat_whiskers() +  
+  cat_shape() +
+  cat_nose() +
+  sketch_mouth(smile = 0.4)
 ```
 
 ![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->

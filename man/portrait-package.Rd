@@ -4,9 +4,17 @@
 \name{portrait-package}
 \alias{portrait}
 \alias{portrait-package}
-\title{portrait: What the Package Does (One Line, Title Case)}
+\title{portrait: Draw faces}
 \description{
-What the package does (one paragraph).
+This package is a demonstration package that shows an alternative system to draw faces.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/emitanaka/portrait}
+  \item Report bugs at \url{https://github.com/emitanaka/portrait/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Emi Tanaka \email{dr.emi.tanaka@gmail.com} (\href{https://orcid.org/0000-0002-1455-259X}{ORCID})
