@@ -10,9 +10,11 @@ face <- function(shape = "round",
   structure(list(
     shape = switch(shape,
                    "round" = shapeGrob(),
-                   "oval" = shapeGrob(width = 1, height = 1.5)),
+                   "oval" = shapeGrob(width = 0.75, height = 1)),
     eyes = switch(eyes,
-                  "round" = eyesGrob()),
+                  "round" = eyesGrob(),
+                  "googly" = grobTree(eyesGrob(fill = "white", size = 0.1),
+                                      eyesGrob())),
     mouth = switch(mouth,
                    "smile" = mouthGrob(),
                    "sad" = mouthGrob(smile = -1))
