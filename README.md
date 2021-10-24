@@ -31,7 +31,7 @@ Draw a standard face:
 face()
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-3-1.png)<!-- -->
 
 Change eye color:
 
@@ -39,7 +39,7 @@ Change eye color:
 face() + sketch_eyes(fill = "blue", size.outline = 3)
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
 Change eye color and sad face:
 
@@ -49,7 +49,7 @@ face() +
   sketch_mouth(smile = -1)
 ```
 
-<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-5-1.png)<!-- -->
 
 Change to a cat eye:
 
@@ -57,4 +57,4 @@ Change to a cat eye:
 face() + cat_eyes()
 ```
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
