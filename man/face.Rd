@@ -4,14 +4,25 @@
 \alias{face}
 \title{Draw a standard face}
 \usage{
-face(shape = "round", eyes = "round", mouth = "smile", ...)
+face(
+  shape = "round",
+  eyes = "round",
+  mouth = "smile",
+  hair = NULL,
+  nose = NULL,
+  ...
+)
 }
 \arguments{
 \item{shape}{Currently only supports "round" face.}
 
-\item{eyes}{Currently only supports "round" eyes}
+\item{eyes}{Currently only supports "round" and "googly" eyes}
 
 \item{mouth}{Currently supports "smile" and "sad".}
+
+\item{hair}{Currently only supports "mohawk" and "bald" only.}
+
+\item{nose}{Currently only supports "simple" nose.}
 
 \item{...}{Not used currently.}
 }
