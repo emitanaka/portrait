@@ -2,6 +2,7 @@
 
 S3method("+",portrait)
 S3method(print,portrait)
+S3method(str,portrait)
 export("%>%")
 export(cat_eyes)
 export(cat_nose)

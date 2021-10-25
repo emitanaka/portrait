@@ -26,13 +26,6 @@ face <- function(shape = "round",
 
 
 
-#' @export
-print.portrait <- function(x, ...) {
-  res <- do.call("grobTree", x)
-  grid.newpage()
-  grid.draw(res)
-}
-
 
 
 
