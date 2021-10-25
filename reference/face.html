@@ -117,7 +117,14 @@
     <p>Draw a standard face</p>
     </div>
 
-    <pre class="usage"><span class='fu'>face</span><span class='op'>(</span>shape <span class='op'>=</span> <span class='st'>"round"</span>, eyes <span class='op'>=</span> <span class='st'>"round"</span>, mouth <span class='op'>=</span> <span class='st'>"smile"</span>, <span class='va'>...</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>face</span><span class='op'>(</span>
+  shape <span class='op'>=</span> <span class='st'>"round"</span>,
+  eyes <span class='op'>=</span> <span class='st'>"round"</span>,
+  mouth <span class='op'>=</span> <span class='st'>"smile"</span>,
+  hair <span class='op'>=</span> <span class='cn'>NULL</span>,
+  nose <span class='op'>=</span> <span class='cn'>NULL</span>,
+  <span class='va'>...</span>
+<span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -128,11 +135,19 @@
     </tr>
     <tr>
       <th>eyes</th>
-      <td><p>Currently only supports "round" eyes</p></td>
+      <td><p>Currently only supports "round" and "googly" eyes</p></td>
     </tr>
     <tr>
       <th>mouth</th>
       <td><p>Currently supports "smile" and "sad".</p></td>
+    </tr>
+    <tr>
+      <th>hair</th>
+      <td><p>Currently only supports "mohawk" and "bald" only.</p></td>
+    </tr>
+    <tr>
+      <th>nose</th>
+      <td><p>Currently only supports "simple" nose.</p></td>
     </tr>
     <tr>
       <th>...</th>
