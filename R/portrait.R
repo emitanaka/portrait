@@ -3,10 +3,12 @@
 #' @param shape Currently only supports "round" face. 
 #' @param eyes Currently only supports "round" eyes
 #' @param mouth Currently supports "smile" and "sad".
+#' @param ... Not used currently.
 #' @export
 face <- function(shape = "round",
                  eyes = "round",
-                 mouth = "smile") {
+                 mouth = "smile",
+                 ...) {
   structure(list(
     shape = switch(shape,
                    "round" = shapeGrob(),

@@ -4,7 +4,7 @@
 \alias{face}
 \title{Draw a standard face}
 \usage{
-face(shape = "round", eyes = "round", mouth = "smile")
+face(shape = "round", eyes = "round", mouth = "smile", ...)
 }
 \arguments{
 \item{shape}{Currently only supports "round" face.}
@@ -12,6 +12,8 @@ face(shape = "round", eyes = "round", mouth = "smile")
 \item{eyes}{Currently only supports "round" eyes}
 
 \item{mouth}{Currently supports "smile" and "sad".}
+
+\item{...}{Not used currently.}
 }
 \description{
 Draw a standard face
